@@ -9,6 +9,7 @@ authors:
     orcid: "https://orcid.org/0009-0005-1025-1617"
 title: "Honeypot Data Analysis Tool"
 version: 1.0.0
+doi: 10.5281/zenodo.19763026
 date-released: 2026-04-25
 url: "https://github.com/boykoatwork/honeypot"
 references:
