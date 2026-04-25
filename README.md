@@ -118,12 +118,14 @@ The refined and audited dataset (Version 2.0) containing over 145,000 events is 
 If you use this framework or the associated dataset in your research, please cite:
 
 ```bibtex
-@article{boiko2026ssh,
-  title={A High-Interaction SSH Dataset for Botnet Behavioral Analysis},
-  author={Boiko, Viktor},
-  journal={Data in Brief},
-  year={2026},
-  doi={10.5281/zenodo.19731615}
+@software{boiko_2026_honeypot_git,
+  author       = {Boiko, Viktor and Niiakyi, Oleksandr },
+  title        = {Asynchronous High-Interaction SSH Honeypot Framework},
+  month        = apr,
+  year         = 2026,
+  publisher    = {GitHub},
+  version      = {v1.0.0},
+  url          = {https://github.com/sasha-niiakyi/honeypot}
  }
 ```
 
