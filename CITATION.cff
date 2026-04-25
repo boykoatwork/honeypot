@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software or the associated data, please cite it as below."
+authors:
+  - family-names: "Boiko"
+    given-names: "Viktor"
+    orcid: "https://orcid.org/0000-0001-5929-657X"
+  - family-names: "Niiakyi"
+    given-names: "Oleksandr"
+    orcid: "https://orcid.org/0009-0005-1025-1617"
+title: "Honeypot Data Analysis Tool"
+version: 1.0.0
+date-released: 2026-04-25
+url: "https://github.com/boykoatwork/honeypot"
+references:
+  - type: data
+    authors:
+      - family-names: "Boiko"
+        given-names: "Viktor"
+        orcid: "https://orcid.org/0000-0001-5929-657X"
+      - family-names: "Niiakyi"
+        given-names: "Oleksandr"
+        orcid: "https://orcid.org/0009-0005-1025-1617"
+    title: "A 6-Month Dataset of SSH Botnet Interactions and Command Payloads (145,425 events)"
+    doi: "10.5281/zenodo.19731615"
