@@ -1,15 +1,15 @@
-# Asynchronous SSH Honeypot Framework
+# Multi-threaded SSH Honeypot Framework
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19731615.svg)](https://doi.org/10.5281/zenodo.19731615) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19815504.svg)](https://doi.org/10.5281/zenodo.19815504) 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19763026.svg)](https://doi.org/10.5281/zenodo.19763026)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
-This repository contains the source code for the modular asynchronous SSH honeypot used in the study "High-Interaction SSH Threat Intelligence Dataset". The framework is designed to capture post-authentication behavior, command sequences, and payload delivery methods of global botnets.
+This repository contains the source code for the modular multi-threaded SSH honeypot used in the study "Adaptive Decoy Systems for Preemptive Detection of Cyber Threats in Web Environments". The framework is designed to capture post-authentication behavior, command sequences, and payload delivery methods of global botnets, providing high-fidelity telemetry for the "Interactive SSH Attack & Payload Dataset (v2.1)".
 
 ## Architecture Overview
 
-The system is built using SOLID principles and an asynchronous core to handle high-concurrency scanning traffic (e.g., Layer-4 bursts).
+The system is built using SOLID principles and an multi-threaded architecture to handle concurrent scanning traffic (e.g., Layer-4 bursts).
 
 - Starter: Manages the lifecycle of multiple honeypot instances.
 - Server (Paramiko-based): Implements the SSHv2 protocol, presenting a realistic `Debian 12` banner.
@@ -111,8 +111,8 @@ sudo ufw allow 2222/tcp
 
 ## Dataset
 
-The refined and audited dataset (Version 2.0) containing over 145,000 events is available on **Zenodo**:
-[Link to Dataset](https://doi.org/10.5281/zenodo.19731615)
+The refined and audited dataset (Version 2.1) containing over 145,000 events (July–Nov 2025) is available on **Zenodo**:
+[Link to Dataset](https://doi.org/10.5281/zenodo.19815504)
 
 ## Citation
 
@@ -120,13 +120,13 @@ If you use this framework or the associated dataset in your research, please cit
 
 ```bibtex
 @software{boiko_2026_honeypot_git,
-  author       = {Boiko, Viktor and Niiakyi, Oleksandr },
-  title        = {Asynchronous High-Interaction SSH Honeypot Framework},
+  author       = {Boiko, Viktor and Niiakyi, Oleksandr},
+  title        = {Multi-threaded High-Interaction SSH Honeypot Framework},
   month        = apr,
   year         = 2026,
   publisher    = {GitHub},
-  version      = {v1.0.0},
-  url          = {https://github.com/sasha-niiakyi/honeypot}
+  version      = {v2.1.0},
+  url          = {https://github.com/boykoatwork/honeypot}
  }
 ```
 

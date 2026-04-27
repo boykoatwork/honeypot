@@ -17,7 +17,7 @@ class DataBaseFileLogger(BaseLogger):
 		self.file_logger.set_datalog(datalog)
 		self.datalog = datalog
 
-	def log(self, message: Optional[str], data: Optional[Union[DataLog, dict]] = None, level: Optional[str] = 'INFO'):
+	def log(self, message: Optional[str], data: Optional[Union[DataLog, dict]] = None, level: Optional[str] = 'WARNING'):
 		self.db_logger.log(message, data, level)
 		self.file_logger.log(message, data, level)
 

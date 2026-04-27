@@ -75,5 +75,5 @@ class DataBaseLogger(BaseLogger):
 		))
 		self.conn.commit()
 
-	def log(self, message:Optional[str], data:Optional[Union[DataLog, dict]] = None, level:Optional[str] = 'INFO'):
+	def log(self, message:Optional[str], data:Optional[Union[DataLog, dict]] = None, level:Optional[str] = 'WARNING'):
 		self._add_log(message, data, level)

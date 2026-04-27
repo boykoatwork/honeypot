@@ -7,7 +7,7 @@ from .data_log import DataLog
 class BaseLogger(ABC):
 
 	@abstractmethod
-	def log(self, message:Optional[str], data:Optional[Union[DataLog, dict]] = None, level:Optional[str] = 'INFO'):
+	def log(self, message:Optional[str], data:Optional[Union[DataLog, dict]] = None, level:Optional[str] = 'WARNING'):
 		pass
 
 	@abstractmethod

@@ -19,7 +19,7 @@ class SSHServerInterface(paramiko.ServerInterface):
 
     def check_auth_password(self, username, password):
         self.logger.update(event_type='SSH login')
-        self.logger.log(f'Bot entered username: {username}, password: {password}', level='INFO')
+        self.logger.log(f'Bot entered username: {username}, password: {password}', level='WARNING')
 
         if not self.login or not self.password:
             self.login = username

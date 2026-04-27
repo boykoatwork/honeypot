@@ -30,7 +30,8 @@ class Starter(BaseStarter):
 			#logging
 			datalog = DataLog(ip=addr[0], port=addr[1], event_type='SSH connect')
 			self.logger.set_datalog(datalog)
-			self.logger.log(f"New connection: {addr[0]}:{addr[1]}, client - {client}", level='WARNING')
+            # change to INFO
+			self.logger.log(f"New connection: {addr[0]}:{addr[1]}, client - {client}", level='INFO')
 
 			threading.Thread(
 				target=self._handle_with_lock,
