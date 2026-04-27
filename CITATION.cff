@@ -7,10 +7,10 @@ authors:
   - family-names: "Niiakyi"
     given-names: "Oleksandr"
     orcid: "https://orcid.org/0009-0005-1025-1617"
-title: "Honeypot Data Analysis Tool"
-version: 1.0.0
+title: "Multi-threaded High-Interaction SSH Honeypot Framework"
+version: 2.1.0
 doi: 10.5281/zenodo.19763026
-date-released: 2026-04-25
+date-released: 2026-04-27
 url: "https://github.com/boykoatwork/honeypot"
 references:
   - type: data
@@ -21,5 +21,5 @@ references:
       - family-names: "Niiakyi"
         given-names: "Oleksandr"
         orcid: "https://orcid.org/0009-0005-1025-1617"
-    title: "A 6-Month Dataset of SSH Botnet Interactions and Command Payloads (145,425 events)"
-    doi: "10.5281/zenodo.19731615"
+    title: "A 4-Month Dataset of SSH Botnet Interactions and Command Payloads"
+    doi: "10.5281/zenodo.19815504"
