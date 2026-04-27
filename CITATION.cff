@@ -7,8 +7,8 @@ authors:
   - family-names: "Niiakyi"
     given-names: "Oleksandr"
     orcid: "https://orcid.org/0009-0005-1025-1617"
-title: "Multi-threaded High-Interaction SSH Honeypot Framework"
-version: 2.1.0
+title: "High-Interaction SSH Threat Intelligence & Attack Modeling"
+version: 2.1.1
 doi: 10.5281/zenodo.19763026
 date-released: 2026-04-27
 url: "https://github.com/boykoatwork/honeypot"

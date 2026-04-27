@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
-This repository contains the source code for the modular multi-threaded SSH honeypot used in the study "Adaptive Decoy Systems for Preemptive Detection of Cyber Threats in Web Environments". The framework is designed to capture post-authentication behavior, command sequences, and payload delivery methods of global botnets, providing high-fidelity telemetry for the "Interactive SSH Attack & Payload Dataset (v2.1)".
+This repository contains the source code for the modular multi-threaded SSH honeypot used in the study "Multi-threaded High-Interaction SSH Honeypot Framework". The framework is designed to capture post-authentication behavior, command sequences, and payload delivery methods of global botnets, providing high-fidelity telemetry for the "Interactive SSH Attack & Payload Dataset (v2.1)".
 
 ## Architecture Overview
 
@@ -125,7 +125,7 @@ If you use this framework or the associated dataset in your research, please cit
   month        = apr,
   year         = 2026,
   publisher    = {GitHub},
-  version      = {v2.1.0},
+  version      = {v2.1.1},
   url          = {https://github.com/boykoatwork/honeypot}
  }
 ```
